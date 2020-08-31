@@ -1,0 +1,100 @@
+.brand {
+    color: black !important;
+    font-family: fantasy !important;
+    letter-spacing: 3px  !important;
+
+}
+.greenone{background-color:white;
+
+}
+/* .img{
+    width: 253px;
+    height: 200px;
+
+
+} */
+.row{
+    margin-top: 20px;
+    
+}
+footer {
+    height: 50px;
+    width: auto;
+}
+ p {
+     max-height: 500px !important; 
+   min-height: 200px !important;
+} 
+#note ul{
+    margin-top: 0px !important;
+    min-height: 0px !important;
+}
+#content h1 {
+    font-family: cursive;
+}
+#click {
+    margin-left: 35% !important;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.category{
+    box-sizing: border-box;
+}
+#list li {
+    list-style: none;
+    padding-top: 50px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+}
+.note {
+    max-width: 500px;
+    max-height: 500px;
+}
+#list li a {
+    color: black !important;
+    text-decoration: none;
+    font-weight: 600;
+
+    
+}
+#list li a:hover {
+    color: lightseagreen !important;    
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+div a h4 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none !important;
+}
+a {
+    text-decoration: none;
+}
+#content {
+    text-align: justify;
+}
+
+
+
+@media all and (max-width:600px){
+    .top{
+        position: absolute;
+        z-index: 2;
+        top: 240px;    
+         
+    }
+
+    .new {
+        margin-top: 190px;
+    }
+    #list li {
+        padding-top: 0px;
+    }
+}
